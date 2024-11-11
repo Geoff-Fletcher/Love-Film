@@ -9,7 +9,7 @@ assignees: ''
 
 As a **player** I can **capability** so that **received benefit**
 
-##Acceptance criteria##
+**Acceptance criteria**
 
 - Acceptance criteria 1
 - Acceptance criteria 2
