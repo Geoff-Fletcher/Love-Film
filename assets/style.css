@@ -1,10 +1,5 @@
-body {
-    background-image: url('images/background.jpg'); /* Path to your image */
-    background-size: cover; /* Make the image cover the entire screen */
-    background-position: center center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Make the image stay in place when scrolling */
-}
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
 /* Reset some basic styles */
@@ -15,6 +10,14 @@ body {
 }
 
 /* Body styles */
+body {
+    background-image: url('images/oldfashionedcinema.jpg'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
