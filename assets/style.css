@@ -1,0 +1,157 @@
+body {
+    background-image: url('images/background.jpg'); /* Path to your image */
+    background-size: cover; /* Make the image cover the entire screen */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the image stay in place when scrolling */
+}
+
+
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and navigation */
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Container to center the content */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+/* Card grid styling */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #e76f51;
+}
+
+/* Quiz container styling */
+#quizContainer {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#quizContainer h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#quizContainer p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+#choicesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+#choicesContainer button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 1rem;
+    margin: 5px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#choicesContainer button:hover {
+    background-color: #e76f51;
+}
+
+/* Next question button */
+#nextButton {
+    background-color: #264653;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#nextButton:hover {
+    background-color: #f4a261;
+}
+
+/* Score display */
+#score {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
