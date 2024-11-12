@@ -107,6 +107,30 @@ body {
   color: #333;
 }
 
+/* Media Query for screens smaller than 768px (Tablets and smaller devices) */
+@media (max-width: 768px) {
+  .card-container {
+      grid-template-columns: repeat(2, 1fr);  
+  }
+}
+
+/* Media Query for screens smaller than 480px (Mobile phones) */
+@media (max-width: 480px) {
+  .card-container {
+      grid-template-columns: 1fr;  
+  }
+
+
+  .card {
+      padding: 10px;
+  }
+
+  
+  .card h2 {
+      font-size: 16px;
+  }
+}
+
   .card {
     background-color: rgb(246, 235, 235);
     border-radius: 10px;
