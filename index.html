@@ -3,84 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>16 Card Quiz</title>
-    <link rel="icon" href="favicon.png" type="popcorn.png">
+    <title>Multiple Choice Quiz</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#quiz">Quiz</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <h1 style="font-size: 36px;">Love Film</h1>
-
     <header>
-
+        <h1>Multiple Choice Quiz</h1>
     </header>
-        <div class="card-container">
-            <!-- Card 1 -->
-            <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Image 1">
-                <h2>Card Title 1</h2>
-                <p>This is some text inside the card.</p>
-            </div>
-            
-            <!-- Card 2 -->
-            <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Image 2">
-                <h2>Card Title 2</h2>
-                <p>This is some text inside the card.</p>
-            </div>
-            
-            <!-- Card 3 -->
-            <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Image 3">
-                <h2>Card Title 3</h2>
-                <p>This is some text inside the card.</p>
-            </div>
-    
-            <!-- Card 4 -->
-            <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Image 4">
-                <h2>Card Title 4</h2>
-                <p>This is some text inside the card.</p>
-            </div>
-    
-            <!-- Card 5 -->
-            <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Image 5">
-                <h2>Card Title 5</h2>
-                <p>This is some text inside the card.</p>
-            </div>
-    
-            <!-- Card 6 -->
-            <div class="card">
-                <img src="https://via.placeholder.com/200" alt="Image 6">
-                <h2>Card Title 6</h2>
-                <p>This is some text inside the card.</p>
+
+    <div class="container">
+        <div id="usernameContainer" class="card">
+            <h2>Enter Username</h2>
+            <input type="text" id="username" placeholder="Enter your username">
+            <button onclick="saveUsername()">Save Username</button>
+        </div>
+        <div id="genreContainer" class="card" style="display: none;">
+            <h2>Select Genre</h2>
+            <div class="genre-container">
+                <div class="card" onclick="selectGenre('General Knowledge')">General Knowledge</div>
+                <div class="card" onclick="selectGenre('Geography')">Geography</div>
+                <div class="card" onclick="selectGenre('Mathematics')">Mathematics</div>
+                <div class="card" onclick="selectGenre('Literature')">Literature</div>
+                <div class="card" onclick="selectGenre('Science')">Science</div>
             </div>
         </div>
-
-
-        <div id="quizContainer" style="display: none;">
-            <h1>LOVE FILM</h1>
-            <p id="question">Question will appear here</p>
-            <div id="choicesContainer">
-                <!-- Choices will be inserted here -->
+        <div id="startContainer" class="card" style="display: none;">
+            <h2>Select Difficulty Level</h2>
+            <div class="difficulty-container">
+                <div class="card" onclick="startQuiz('easy')">Easy</div>
+                <div class="card" onclick="startQuiz('medium')">Medium</div>
+                <div class="card" onclick="startQuiz('hard')">Hard</div>
             </div>
-            <p id="result"></p>
-            <button id="nextButton" onclick="nextQuestion()">Next Question</button>
-            <p id="score">Score: 0</p>
+        </div>
+        <div id="quizContainer" style="display: none;">
+            <h2 id="quizTitle">Quiz</h2>
+            <p id="usernameDisplay"></p>
+            <div class="card">
+                <p id="genre">Genre: <span id="genreLabel"></span></p>
+                <p id="question">Question will appear here</p>
+                <div id="choicesContainer">
+                    <!-- Choices will be inserted here -->
+                </div>
+                <p id="result"></p>
+                <button id="nextButton" onclick="nextQuestion()">Next Question</button>
+                <p id="score">Score: 0</p>
+            </div>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2024 Love Film. All rights reserved.</p>
+        <p>&copy; 2024 Quiz Game. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="assets/script.js"></script>
 </body>
 </html>
