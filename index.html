@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Quiz</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>Multiple Choice Quiz</h1>
+    </header>
+
+    <div class="container">
+        <div id="usernameContainer" class="card">
+            <h2>Enter Username</h2>
+            <input type="text" id="username" placeholder="Enter your username">
+            <button onclick="saveUsername()">Save Username</button>
+        </div>
+        <div id="genreContainer" class="card" style="display: none;">
+            <h2>Select Genre</h2>
+            <div class="genre-container">
+                <div class="card" onclick="selectGenre('General Knowledge')">General Knowledge</div>
+                <div class="card" onclick="selectGenre('Geography')">Geography</div>
+                <div class="card" onclick="selectGenre('Mathematics')">Mathematics</div>
+                <div class="card" onclick="selectGenre('Literature')">Literature</div>
+                <div class="card" onclick="selectGenre('Science')">Science</div>
+            </div>
+        </div>
+        <div id="startContainer" class="card" style="display: none;">
+            <h2>Select Difficulty Level</h2>
+            <div class="difficulty-container">
+                <div class="card" onclick="startQuiz('easy')">Easy</div>
+                <div class="card" onclick="startQuiz('medium')">Medium</div>
+                <div class="card" onclick="startQuiz('hard')">Hard</div>
+            </div>
+        </div>
+        <div id="quizContainer" style="display: none;">
+            <h2 id="quizTitle">Quiz</h2>
+            <p id="usernameDisplay"></p>
+            <div class="card">
+                <p id="genre">Genre: <span id="genreLabel"></span></p>
+                <p id="question">Question will appear here</p>
+                <div id="choicesContainer">
+                    <!-- Choices will be inserted here -->
+                </div>
+                <p id="result"></p>
+                <button id="nextButton" onclick="nextQuestion()">Next Question</button>
+                <p id="score">Score: 0</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Quiz Game. All rights reserved.</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
