@@ -9,10 +9,22 @@ header {
 
 h1 {
   font-family: Arial, sans-serif;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center; 
   margin-top: 100px; 
 
+}
+.title-background {
+  background-color: #eb0c0c.; 
+  color: #fff;               
+  padding: 10px 20px;        
+  border-radius: 8px;        
+  text-align: center;        
+  font-size: 36px;          
+  font-weight: bold;         
+  margin: 20px 0; 
+  margin-bottom: 25px;     
+ 
 }
 
 body {
@@ -85,7 +97,7 @@ body {
   }
 
   .card {
-    background-color: white;
+    background-color: rgb(246, 235, 235);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
