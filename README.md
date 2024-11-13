@@ -46,6 +46,9 @@ I used [Balsamiq](https://balsamiq.cloud/). to mock up all the wireframes for th
 
 ![New Wireframe 1](https://github.com/user-attachments/assets/6f64122f-1dd0-4e07-832d-d90f01caabf6)
 
+![alt text](assets/images/lovefilmmobilewireframe.png)
+![alt text](assets/images/lovefilmtabletwireframe.png)
+![alt text](assets/images/lovefilmdesktopwireframe.png)
 ![New Wireframe 2](https://github.com/user-attachments/assets/ee5ce56c-8a7a-465f-82dc-e64413f2b2d0)
 
 ![New Wireframe 3](https://github.com/user-attachments/assets/74780ffb-3aaf-4fc6-9e85-d8f1e4170107)

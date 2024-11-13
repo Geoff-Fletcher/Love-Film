@@ -105,11 +105,6 @@ header {
   opacity: 1;    
 }
 
-
-.card:hover {
-  transform: translateY(-10px); 
-  
-}
 .card:hover {
   transform: translateY(-10px);
   background-color: #e90808;
