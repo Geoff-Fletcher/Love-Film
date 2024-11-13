@@ -55,10 +55,6 @@ body {
     background-attachment: fixed; 
 }
 
-.bg-changed {
-  background-image: url('assets/images/cinemaoldstyle.png');
-}
-
  /* Basic Reset 
  * {
     margin: 0;
@@ -128,28 +124,13 @@ body {
     grid-template-columns: 1fr;
   }
 
-
   .card {
     padding: 10px;
   }
 
-
   .card h2 {
     font-size: 16px;
   }
-}
-
-.card {
-  background-color: #f0f0f0;
-  text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-  max-width: 250px;
-  margin: 10px;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 }
 
 .card:hover {
@@ -306,6 +287,15 @@ header {
   }
 
   .card {
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    max-width: 250px;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     background
     padding: 20px;
     border-radius: 8px;
