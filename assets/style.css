@@ -215,8 +215,8 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 
-  .card {
-    background: #fff;
+  .card1 {
+    background: url('assets/images/comedy.webp');
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -230,6 +230,96 @@ header {
     cursor: pointer;
   }
 
+  .card2 {
+    background: url('assets/images/buzz.jpg');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    cursor: pointer;
+  }
+
+  .card3 {
+    background: url('assets/images/dirty dancing.webp');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    cursor: pointer;
+  }
+
+  .card4 {
+    background: url('assets/images/jasonvjaws.png');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    cursor: pointer;
+  }
+
+  .card5 {
+    background: url('assets/images/scifi.webp');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    cursor: pointer;
+  }
+
+  .card6 {
+    background: url('assets/images/die-hard.webp');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    cursor: pointer;
+  }
+
+  .card {
+    background
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    cursor: pointer;
+  }
+  }
   .difficulty-container,
   .genre-container {
     display: flex;
