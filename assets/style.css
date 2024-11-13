@@ -3,6 +3,7 @@
 
 /* Header and navigation 
 
+<<<<<<< HEAD
 h1 {
   font-family: Arial, sans-serif;
   font-size: 36px;
@@ -11,6 +12,14 @@ h1 {
 
 }
 
+=======
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+>>>>>>> f20ebd06db18539fbdb8f9d1d216c8d9accebc71
 nav ul {
   display: flex;
   justify-content: center;
@@ -42,7 +51,7 @@ nav ul li a:hover {
 
 /* Body styles 
 body {
-    background-image: url('images/oldfashionedcinema.jpg'); 
+    background-image: url('images/cinemaoldstyle.png'); 
     background-size: cover; 
     background-position: center center; 
     background-repeat: no-repeat; 
@@ -74,8 +83,38 @@ body {
     justify-items: center; 
   }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 20px;  
+  margin: 20px;  
+}
+
+
+.card {
+  background-color: #f0f0f0;  
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.card h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
   .card {
-    background-color: white;
+    background-color: rgb(246, 235, 235);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
