@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multiple Choice Quiz</title>
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/cab064cd01.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -20,11 +21,12 @@
         <div id="genreContainer" class="card" style="display: none;">
             <h2>Select Genre</h2>
             <div class="genre-container">
-                <div class="card" onclick="selectGenre('General Knowledge')">General Knowledge</div>
-                <div class="card" onclick="selectGenre('Geography')">Geography</div>
-                <div class="card" onclick="selectGenre('Mathematics')">Mathematics</div>
-                <div class="card" onclick="selectGenre('Literature')">Literature</div>
-                <div class="card" onclick="selectGenre('Science')">Science</div>
+                <div class="card" onclick="selectGenre('Horror')">Horror</div>
+                <div class="card" onclick="selectGenre('Sci-fi')">Sci-fi</div>
+                <div class="card" onclick="selectGenre('Romance')">Romance</div>
+                <div class="card" onclick="selectGenre('Animation')">Animation</div>
+                <div class="card" onclick="selectGenre('Comedy')">Comedy</div>
+                <div class="card" onclick="selectGenre('Action')">Action</div>
             </div>
         </div>
         <div id="startContainer" class="card" style="display: none;">
@@ -52,7 +54,19 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Quiz Game. All rights reserved.</p>
+        <footer class="social-footer">
+            <div class="social-media">
+                <a href="https://www.facebook.com/" aria-label="facebook" target="_blank" class="social-link">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com/" aria-label="twitter" target="_blank" class="social-link">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/" aria-label="instagram" target="_blank" class="social-link">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+            </div>
+        <p>&copy; 2024 Love Film. All rights reserved.</p>
     </footer>
     <script src="assets/script.js"></script>
 </body>
