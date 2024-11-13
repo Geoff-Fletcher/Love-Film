@@ -419,31 +419,108 @@ hard: {
 { question: "In How to Train Your Dragon, what is the name of Hiccup’s dragon?", choices: ["Toothless", "Stormfly", "Hookfang", "Meatlug"], answer: "Toothless", genre: "Animated" },
 { question: "In Big Hero 6, what is the name of the villain who uses microbots?", choices: ["Syndrome", "Callaghan", "Yokai", "Tadashi"], answer: "Yokai", genre: "Animated" },
     
-    
-     
-   
-    
-    
-    
-   
-   
-   
+   /*Comedy Easy*/ 
 
+   { question: "In Dumb and Dumber, what is the name of the van that Harry and Lloyd drive across the country?", choices: ["Shaggin' Wagon", "Limo of Love", "The Mutt Cutts Mobile", "The Dumbmobile"], answer: "The Mutt Cutts Mobile", genre: "Comedy" },
+   { question: "In The Hangover, where do the characters wake up after a wild night in Las Vegas?", choices: ["A penthouse", "A hotel room", "A strip club", "A deserted mansion"], answer: "A hotel room", genre: "Comedy" },
+   { question: "In Clerks, what is the name of the store where the main characters work?", choices: ["The Mall", "QuickStop", "Comic Book Shop", "Convenient Mart"], answer: "QuickStop", genre: "Comedy" },
+   { question: "In Shaun of the Dead, what is the name of Shaun's best friend?", choices: ["Graham", "Nick", "Mike", "Ed"], answer: "Ed", genre: "Comedy" },
+   { question: "In Borat, which country is the protagonist from?", choices: ["Kazakhstan", "Uzbekistan", "Russia", "Georgia"], answer: "Kazakhstan", genre: "Comedy" },
+   { question: "In The 40-Year-Old Virgin, what is the name of the character played by Steve Carell?", choices: ["Ben", "David", "Andy", "Caleb"], answer: "Andy", genre: "Comedy" },
+   { question: "In Monty Python and the Holy Grail, what is the name of King Arthur's horse?", choices: ["Lancelot", "Excalibur", "Galahad", "Pony"], answer: "Pony", genre: "Comedy" },
+   { question: "In Wayne’s World, what is the name of the TV show Wayne and Garth host?", choices: ["Wayne's World", "The Wayne Show", "The Garth Channel", "Waynevision"], answer: "Wayne's World", genre: "Comedy" },
+   { question: "In Ghostbusters, what is the name of the ghost hunter company?", choices: ["Ghostbusters", "The Specter Squad", "Phantom Hunters", "Spook Busters"], answer: "Ghostbusters", genre: "Comedy" },
+   { question: "In Meet the Parents, what is the name of Ben Stiller’s character?", choices: ["Greg Focker", "Jack Byrnes", "Bob", "Tom"], answer: "Greg Focker", genre: "Comedy" },
+   { question: "In Elf, what is Buddy’s favorite food group?", choices: ["Candy", "Cookies", "Candy canes", "Syrup"], answer: "Candy", genre: "Comedy" },
+   { question: "In Austin Powers: International Man of Mystery, what is Dr. Evil’s son’s name?", choices: ["Kevin", "Brian", "Doug", "Scott"], answer: "Scott", genre: "Comedy" }
+
+
+    /*Comedy Medium*/ 
+
+    { question: "In Anchorman: The Legend of Ron Burgundy, what is the name of the rival news anchor team?", choices: ["The Channel 7 News Team", "The Channel 4 News Team", "The Action News Team", "The Newsroom 5"], answer: "The Channel 4 News Team", genre: "Comedy" },
+    { question: "In Superbad, what is the name of the high school party the characters are trying to attend?", choices: ["The Big Party", "The Cool Kids Party", "The Epic Party", "The House Party"], answer: "The Epic Party", genre: "Comedy" },
+    { question: "In Hot Fuzz, what is the name of the small town where the story takes place?", choices: ["Epping", "Brooklyn", "Sandford", "Bromley"], answer: "Sandford", genre: "Comedy" },
+    { question: "In Ace Ventura: Pet Detective, what animal does Ace Ventura save from the villain's hideout?", choices: ["A dolphin", "A hamster", "A parrot", "A dog"], answer: "A dolphin", genre: "Comedy" },
+    { question: "In Tropic Thunder, which actor plays the role of Kirk Lazarus, a method actor?", choices: ["Ben Stiller", "Robert Downey Jr.", "Jack Black", "Tom Cruise"], answer: "Robert Downey Jr.", genre: "Comedy" },
+    { question: "In The Grand Budapest Hotel, what is the name of the concierge?", choices: ["Monsieur Gustave", "Ralph Fiennes", "Ludwig", "Zero Moustafa"], answer: "Monsieur Gustave", genre: "Comedy" },
+    { question: "In Zombieland, what is the first rule in Columbus’ list of survival rules?", choices: ["Double Tap", "Cardio", "Avoid Public Restrooms", "Always wear seatbelts"], answer: "Cardio", genre: "Comedy" },
+    { question: "In The Hangover Part II, where do the characters go for their friend's wedding?", choices: ["Bangkok", "Las Vegas", "Bangkok", "Miami"], answer: "Hong Kong", genre: "Comedy" },
+    { question: "In Jumanji: Welcome to the Jungle, which character is played by Dwayne Johnson?", choices: ["Dr. Smolder Bravestone", "Ruby Roundhouse", "Franklin Finbar", "Nigel Billingsley"], answer: "Dr. Smolder Bravestone", genre: "Comedy" },
+    { question: "In 21 Jump Street, which actor plays the character Morton Schmidt?", choices: ["Jonah Hill", "Channing Tatum", "Dave Franco", "Ice Cube"], answer: "Jonah Hill", genre: "Comedy" },
+    { question: "In Scary Movie, who is the first person to die in the movie?", choices: ["Randy", "Cindy", "Brenda", "Drew"], answer: "Drew", genre: "Comedy" },
+    { question: "In Airplane!, what does the stewardess use to calm down a hysterical passenger?", choices: ["A guitar", "A pillow", "A drink", "A slap"], answer: "A slap", genre: "Comedy" },
+    { question: "In The Truman Show, what is the name of Truman’s wife?", choices: ["Clara", "Sylvia", "Meryl", "Lauren"], answer: "Meryl", genre: "Comedy" },
+    { question: "In Dr. Strangelove, what is the subtitle of the film?", choices: ["How I Learned to Stop Worrying and Love the Bomb", "The End of the World as We Know It", "A Comedy of Errors", "Bombs Away"], answer: "How I Learned to Stop Worrying and Love the Bomb", genre: "Comedy" },
+
+
+    /*Comedy Hard*/ 
+    { question: "In Step Brothers, what is the name of the song that Brennan and Dale perform at the Catalina Wine Mixer?", choices: ["Boats 'N Hoes", "You Make My Dreams", "Ain't No Mountain High Enough", "Livin' on a Prayer"], answer: "Boats 'N Hoes", genre: "Comedy" },
+    { question: "In The Big Lebowski, what does Jeffrey Lebowski (The Dude) famously drink?", choices: ["Vodka", "White Russian", "Gin and tonic", "Beer"], answer: "White Russian", genre: "Comedy" },
+    { question: "In Ferris Bueller's Day Off, what is the name of the high school principal?", choices: ["Charles Finch", "Larry Stack", "Ed Rooney", "Frank Donnelly"], answer: "Ed Rooney", genre: "Comedy" },
+    { question: "In The Princess Bride, who says the line 'Inconceivable!'?", choices: ["Prince Humperdinck", "Westley", "Fezzik", "Vizzini"], answer: "Vizzini", genre: "Comedy" },
+    { question: "In Blazing Saddles, what is the name of the town where the story is set?", choices: ["Tombstone", "Dodge City", "Rock Ridge", "Deadwood"], answer: "Rock Ridge", genre: "Comedy" },
+    { question: "In The Mask, what is the name of the woman Stanley Ipkiss (The Mask) is interested in?", choices: ["Catherine Mayfair", "Tina Carlyle", "Sarah Palmer", "Lola Love"], answer: "Tina Carlyle", genre: "Comedy" },
+    { question: "In Legally Blonde, what is the name of the sorority that Elle Woods belongs to?", choices: ["Delta Nu", "Alpha Chi Omega", "Pi Beta Phi", "Kappa Delta"], answer: "Pi Beta Phi", genre: "Comedy" },
+    { question: "In Coming to America, what is the name of the fictional country where Prince Akeem is from?", choices: ["Zamunda", "Wakanda", "Genovia", "Aldovia"], answer: "Zamunda", genre: "Comedy" },
+    { question: "In The Other Guys, what is the name of the two main characters?", choices: ["Terry Hoitz and Allen Gamble", "Ron Burgundy and Brick Tamland", "Mike Lowrey and Marcus Burnett", "Jules Winnfield and Vincent Vega"], answer: "Terry Hoitz and Allen Gamble", genre: "Comedy" },
+    { question: "In Planes, Trains, and Automobiles, what item does Del Griffith sell for a living?", choices: ["Vacuum cleaners", "Insurance policies", "Shower curtain rings", "Used cars"], answer: "Shower curtain rings", genre: "Comedy" },
+    { question: "In Napoleon Dynamite, what kind of animal does Napoleon claim to hunt with a bow staff?", choices: ["Cougars", "Wolverines", "Llamas", "Coyotes"], answer: "Wolverines", genre: "Comedy" },
+    { question: "In Office Space, what is the name of the company where the main characters work?", choices: ["Initrode", "SoftSys", "Stapler Corp", "Initech"], answer: "Initech", genre: "Comedy" },
+    { question: "In Wedding Crashers, what fake identity does Owen Wilson’s character use?", choices: ["John Ryan", "John Beckwith", "Chaz Reinhold", "Todd Cleary"], answer: "John Beckwith", genre: "Comedy" },
+    { question: "In Groundhog Day, what is the name of the town where Phil Connors gets stuck?", choices: ["Greendale", "Bedford Falls", "Punxsutawney", "Hickory"], answer: "Punxsutawney", genre: "Comedy" },
    
-   
-   
-  
-  
- 
-    
-  
-   
-     
-   
-  
-     
-  
-   
+     /*Action Easy*/ 
+     { question: "In Die Hard, what is the name of the building where the story takes place?", choices: ["Empire State Building", "Willis Tower", "Nakatomi Plaza", "Yamashiro Building"], answer: "Nakatomi Plaza", genre: "Action" },
+     { question: "In John Wick, what is the name of the hotel that serves as a sanctuary for assassins?", choices: ["The Continental", "The Monarch", "The High Table", "The Empire"], answer: "The Continental", genre: "Action" },
+     { question: "In Mission: Impossible - Fallout, what substance does Ethan Hunt and his team try to stop being used for a terrorist attack?", choices: ["Plutonium", "Cobalt", "VX Gas", "Uranium"], answer: "Plutonium", genre: "Action" },
+     { question: "In Top Gun, what is Maverick's co-pilot’s call sign?", choices: ["Goose", "Viper", "Iceman", "Cougar"], answer: "Goose", genre: "Action" },
+     { question: "In Dredd (2012), what is the name of the drug that slows perception of time?", choices: ["Slo-Mo", "Drop", "Rush", "Chrono"], answer: "Slo-Mo", genre: "Action" },
+     { question: "In Casino Royale, what is the name of the poker tournament James Bond enters?", choices: ["Casino Royale", "Le Chiffre Tournament", "High Stakes Royale", "Montenegro Royale"], answer: "Casino Royale", genre: "Action" },
+     { question: "In Indiana Jones and the Last Crusade, what artifact is Indiana searching for?", choices: ["The Ark of the Covenant", "The Holy Grail", "Excalibur", "The Crystal Skull"], answer: "The Holy Grail", genre: "Action" },
+     { question: "In Die Hard with a Vengeance, what game does Simon force McClane and Zeus to play?", choices: ["Russian Roulette", "Hot Potato", "Simon Says", "Riddles"], answer: "Simon Says", genre: "Action" },
+     { question: "In Atomic Blonde, what is Lorraine Broughton trying to retrieve in Berlin?", choices: ["Secret Blueprints", "A Stolen Necklace", "A List of Spies", "A Coded Watch"], answer: "A List of Spies", genre: "Action" },
+     { question: "In Fury, what is the name of Brad Pitt's tank?", choices: ["Fury", "Tiger", "Panther", "Sherman"], answer: "Fury", genre: "Action" },
+     { question: "In Mad Max: Fury Road, what is Furiosa’s ultimate destination?", choices: ["The Citadel", "The Green Place", "The Wasteland", "The Salt Flats"], answer: "The Green Place", genre: "Action" },
+     { question: "In The Matrix Reloaded, who does Neo meet in the Architect’s room?", choices: ["The Oracle", "The Merovingian", "The Architect", "Agent Smith"], answer: "The Architect", genre: "Action" },
+     { question: "In Terminator 2: Judgment Day, what is the new model of Terminator sent to kill John Connor?", choices: ["T-800", "T-1000", "Rev-9", "T-X"], answer: "T-1000", genre: "Action" },
+
+
+
+
+     /*Action Medium*/ 
+
+     { question: "In Mad Max: Fury Road, what is the name of the tyrannical warlord ruling the Citadel?", choices: ["Toecutter", "Immortan Joe", "Rictus Erectus", "The People Eater"], answer: "Immortan Joe", genre: "Action" },
+     { question: "In The Terminator, what is the name of the computer system that becomes self-aware?", choices: ["Genesis", "Skynet", "Cyberdyne", "Ultron"], answer: "Skynet", genre: "Action" },
+     { question: "In Predator, what is Arnold Schwarzenegger’s iconic character’s name?", choices: ["Dylan", "Mac", "Dutch", "Blaine"], answer: "Dutch", genre: "Action" },
+     { question: "In 300, what is the name of the Persian king who battles Leonidas?", choices: ["Cyrus", "Xerxes", "Darius", "Artaxerxes"], answer: "Xerxes", genre: "Action" },
+     { question: "In Speed, what speed must the bus maintain to avoid the bomb detonating?", choices: ["55 mph", "50 mph", "60 mph", "65 mph"], answer: "50 mph", genre: "Action" },
+     { question: "In Kill Bill, what is the name of the katana master who crafts the Bride's sword?", choices: ["Hattori Hanzo", "O-Ren Ishii", "Pai Mei", "Genji Togo"], answer: "Hattori Hanzo", genre: "Action" },
+     { question: "In Taken, what city does Bryan Mills travel to in search of his daughter?", choices: ["London", "Paris", "Rome", "Berlin"], answer: "Paris", genre: "Action" },
+     { question: "In Iron Man, who is the main villain?", choices: ["Obadiah Stane", "Justin Hammer", "Aldrich Killian", "Ivan Vanko"], answer: "Obadiah Stane", genre: "Action" },
+     { question: "In Heat, who plays Neil McCauley, the professional thief?", choices: ["Al Pacino", "Robert De Niro", "Val Kilmer", "Jon Voight"], answer: "Robert De Niro", genre: "Action" },
+     { question: "In Black Panther, what is the name of the mineral that powers Wakanda?", choices: ["Adamantium", "Vibranium", "Unobtanium", "Kryptonite"], answer: "Vibranium", genre: "Action" },
+     { question: "In Edge of Tomorrow, what is the name of the alien species humanity fights?", choices: ["Mimics", "Shadows", "Xenomorphs", "Harvesters"], answer: "Mimics", genre: "Action" },
+     { question: "In Die Hard: With a Vengeance, what type of bomb is hidden in the subway?", choices: ["C4", "Nitroglycerin", "Liquid Explosives", "Semtex"], answer: "Liquid Explosives", genre: "Action" },
+     { question: "In John Wick: Chapter 2, what is the name of the currency used by assassins?", choices: ["Blood Mark", "Gold Coins", "High Table Credits", "Continental Tokens"], answer: "Gold Coins", genre: "Action" },
+
+
+
+     /*Action Hard*/ 
+
+     { question: "In The Dark Knight, what is the name of the boat plan Joker sets up to test Gotham's morals?", choices: ["The Dilemma", "The Ferry Trap", "The Social Experiment", "The Ferry Bomb"], answer: "The Social Experiment", genre: "Action" },
+     { question: "In Gladiator, what is Maximus' full title at the start of the film?", choices: ["General of the Roman Empire", "Commander of the Armies of the North", "Protector of the Senate", "Governor of Gaul"], answer: "Commander of the Armies of the North", genre: "Action" },
+     { question: "In The Matrix, what is the name of the ship captained by Morpheus?", choices: ["The Hammer", "The Logos", "The Nebuchadnezzar", "The Hovercraft"], answer: "The Nebuchadnezzar", genre: "Action" },
+     { question: "In Lethal Weapon, what is Martin Riggs’ signature weapon?", choices: ["Revolver", "Shotgun", "Beretta 92FS", "Desert Eagle"], answer: "Beretta 92FS", genre: "Action" },
+     { question: "In The Raid: Redemption, what is the name of the building the police raid?", choices: ["The Fortress", "The Block", "The Tower", "The Hive"], answer: "The Hive", genre: "Action" },
+     { question: "In Rambo: First Blood, what is the name of the sheriff who pursues John Rambo?", choices: ["Will Teasle", "Art Galt", "Samuel Trautman", "Halford Wilkes"], answer: "Will Teasle", genre: "Action" },
+     { question: "In The Equalizer, what job does Robert McCall work at before returning to his violent past?", choices: ["Security Guard", "Librarian", "Hardware Store Clerk", "Janitor"], answer: "Hardware Store Clerk", genre: "Action" },
+     { question: "In The Avengers, where is the Tesseract first found?", choices: ["The Arctic", "Asgard", "A S.H.I.E.L.D. Facility", "The Ocean"], answer: "A S.H.I.E.L.D. Facility", genre: "Action" },
+     { question: "In The Dark Knight, what is the name of the boat plan Joker sets up to test Gotham's morals?", choices: ["The Dilemma", "The Ferry Trap", "The Social Experiment", "The Ferry Bomb"], answer: "The Social Experiment", genre: "Action" },
+     { question: "In The Bourne Supremacy, what is the name of the secret operation Jason Bourne was a part of?", choices: ["Blackbriar", "Treadstone", "Outcome", "LARX"], answer: "Treadstone", genre: "Action" },
+     { question: "In Gladiator, who betrays Maximus at the beginning of the film?", choices: ["Lucilla", "Marcus Aurelius", "Commodus", "Proximo"], answer: "Commodus", genre: "Action" },
+     { question: "In Speed, who is revealed to be the bomber?", choices: ["Harry Temple", "Howard Payne", "Jack Traven", "Dennis Hopper"], answer: "Howard Payne", genre: "Action" },
+     { question: "In The Equalizer 2, what profession does Robert McCall take up to blend in?", choices: ["Rideshare Driver", "Librarian", "Security Guard", "Bookstore Clerk"], answer: "Rideshare Driver", genre: "Action" },
+     { question: "In Lethal Weapon 2, what diplomatic immunity claim protects the villains?", choices: ["South African", "Argentinian", "French", "British"], answer: "South African", genre: "Action" },
 
 
 
