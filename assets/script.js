@@ -52,6 +52,74 @@ const quizzes = {
     }
 };
 
+/**
+ * New Question Pending
+ * Horror
+ * "Horror": [
+    {
+        "question": "Which horror movie features a cursed videotape that causes viewers to die in seven days?",
+        "choices": ["The Grudge", "Insidious", "Sinister", "The Ring"],
+        "answer": "The Ring",
+        "genre": "Horror"
+    },
+    {
+        "question": "What is the name of the demon that possesses Regan MacNeil in *The Exorcist*?",
+        "choices": ["Pazuzu", "Azazel", "Beelzebub", "Zozo"],
+        "answer": "Pazuzu",
+        "genre":  "Horror"
+    },
+    {
+        "question": "In *Stephen King's IT*, what is Pennywise's true form referred to as?",
+        "choices": ["The Deadlights", "The Beast", "The Void", "The Eternal"],
+        "answer": "The Deadlights",
+        "genre":  "Horror"
+    },
+    {
+        "question": "What type of creature is featured in the 1982 movie *The Thing*?",
+        "choices": ["Vampire", "Alien", "Zombie", "Werewolf"],
+        "answer": "Alien",
+        "genre":  "Horror"
+    },
+    {
+        "question": "What is the name of the hotel in *The Shining*?",
+        "choices": ["The Shadow Hotel", "The Stanley Hotel", "The Grand Hotel", "The Overlook Hotel"],
+        "answer": "The Overlook Hotel",
+        "genre":  "Horror"
+    },
+    {
+        "question": "What mask does Michael Myers wear in the *Halloween* series?",
+        "choices": ["A clown mask", "A William Shatner mask", "A zombie mask", "A ghost face mask"],
+        "answer": "A William Shatner mask",
+        "genre":  "Horror"
+    },
+    {
+        "question": "What is the name of the family targeted by paranormal entities in *The Conjuring*?",
+        "choices": ["The Perrons", "The Warrens", "The Hodgsons", "The Lutzes"],
+        "answer": "The Perrons",
+        "genre":  "Horror"
+    },
+    {
+        "question": "Which classic horror film was the first to show a flushing toilet on screen?",
+        "choices": ["Rosemary's Baby", "Night of the Living Dead", "Psycho", "The Haunting"],
+        "answer": "Psycho",
+        "genre":  "Horror"
+    },
+    {
+        "question": "What was the original name of the demon in the *Insidious* series?",
+        "choices": ["The Red Demon", "The Lipstick-Face Demon", "The Fire Demon", "The Black Ghost"],
+        "answer": "The Lipstick-Face Demon",
+        "genre":  "Horror"
+    },
+    {
+        "question": "In the 1979 movie *Alien*, what is the name of the spaceship?",
+        "choices": ["Prometheus", "Serenity", "Event Horizon", "Nostromo"],
+        "answer": "Nostromo",
+        "genre":  "Horror"
+    }
+]
+
+ */
+
 let currentQuiz = [];
 let currentQuestionIndex = 0;
 let score = 0;
