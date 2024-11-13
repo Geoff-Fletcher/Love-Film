@@ -366,7 +366,58 @@ hard: {
 { question: "In The Holiday, where does Kate Winslet’s character Iris stay during the home exchange?", choices: ["Los Angeles", "New York", "Paris", "Tokyo"], answer: "Los Angeles", genre: "Romance" },
 { question: "In Blue Valentine, what song does Dean sing to Cindy in the music store?", choices: ["You Always Hurt the One You Love", "Can't Take My Eyes Off You", "Love Me Tender", "Unchained Melody"], answer: "You Always Hurt the One You Love", genre: "Romance" },
     
-  
+/*Animated Easy*/
+{ question: "In The Lion King, what is the name of Simba’s father?", choices: ["Mufasa", "Scar", "Rafiki", "Zazu"], answer: "Mufasa", genre: "Animated" },
+{ question: "In Shrek, what is the name of the princess who becomes Shrek’s wife?", choices: ["Fiona", "Aurora", "Belle", "Ariel"], answer: "Fiona", genre: "Animated" },
+{ question: "In Finding Nemo, what type of fish is Nemo?", choices: ["Clownfish", "Angelfish", "Tang", "Goldfish"], answer: "Clownfish", genre: "Animated" },
+{ question: "In Frozen, what is the name of the ice queen?", choices: ["Elsa", "Anna", "Olaf", "Rapunzel"], answer: "Elsa", genre: "Animated" },
+{ question: "In The Secret of Kells, what is the name of the book that must be completed?", choices: ["The Book of Kells", "The Book of Shadows", "The Book of Life", "The Book of Lost Souls"], answer: "The Book of Kells", genre: "Animated" },
+{ question: "In Up, what is the name of the boy scout who accompanies Carl?", choices: ["Russell", "Kevin", "Doug", "Sid"], answer: "Russell", genre: "Animated" },
+{ question: "In Monsters, Inc., what is the name of the blue, one-eyed monster?", choices: ["Mike Wazowski", "Sulley", "Randall", "Boo"], answer: "Mike Wazowski", genre: "Animated" },
+{ question: "In The Lego Batman Movie, who is Batman's loyal butler?", choices: ["Alfred", "Robin", "Batgirl", "Joker"], answer: "Alfred", genre: "Animated" },
+{ question: "In The Hunchback of Notre Dame, what is the name of the gypsy who befriends Quasimodo?", choices: ["Esmeralda", "Frollo", "Phoebus", "Clopin"], answer: "Esmeralda", genre: "Animated" },
+{ question: "In Alice in Wonderland (1951), who does Alice follow down the rabbit hole?", choices: ["The White Rabbit", "The Cheshire Cat", "The Mad Hatter", "The Queen of Hearts"], answer: "The White Rabbit", genre: "Animated" },
+{ question: "In Bambi, what is the name of Bambi’s friend who is a rabbit?", choices: ["Mr. Owl", "Flower", "Faline", "Thumper"], answer: "Thumper", genre: "Animated" },
+{ question: "In The Adventures of Tintin, what is the name of Tintin's dog?", choices: ["Snoopy", "Snowy", "Clifford", "Rufus"], answer: "Snowy", genre: "Animated" },
+{ question: "In The Princess and the Frog, what is the name of the restaurant Tiana dreams of opening?", choices: ["Tiana’s Place", "The Bayou Bistro", "The Royal Cafe", "La Petite Fleur"], answer: "Tiana’s Place", genre: "Animated" },
+
+
+
+
+/*Animated Medium*/
+
+{ question: "In The Incredibles, what is the name of the villain who can control machines?", choices: ["Syndrome", "Frozone", "Dash", "Mirage"], answer: "Syndrome", genre: "Animated" },
+{ question: "In Wall-E, what is the name of the spaceship the humans live on?", choices: ["Axiom", "Orca", "Exodus", "Arca"], answer: "Axiom", genre: "Animated" },
+{ question: "In The Iron Giant, what type of creature is the giant?", choices: ["Robot", "Alien", "Mutant", "Monster"], answer: "Robot", genre: "Animated" },
+{ question: "In Kung Fu Panda, what is the name of the main character?", choices: ["Po", "Shifu", "Tai Lung", "Dragon Warrior"], answer: "Po", genre: "Animated" },
+{ question: "In Ratatouille, what is the name of the rat who dreams of becoming a chef?", choices: ["Remy", "Emile", "Linguini", "Anton Ego"], answer: "Remy", genre: "Animated" },
+{ question: "In Zootopia, what is the main character Judy Hopps’ job?", choices: ["Police officer", "Medic", "Photographer", "Scientist"], answer: "Police officer", genre: "Animated" },
+{ question: "In The Lego Movie, what is the name of the protagonist?", choices: ["Emmet", "Batman", "Wyldstyle", "Lord Business"], answer: "Emmet", genre: "Animated" },
+{ question: "In Wreck-It Ralph, who is Ralph’s best friend?", choices: ["Vanellope von Schweetz", "Fix-It Felix", "King Candy", "Sonic"], answer: "Vanellope von Schweetz", genre: "Animated" },
+{ question: "In The LitUrsultle Mermaid, what is the name of the sea witch?", choices: ["Flotsam", "Ariel", "Ursula", "Jetsam"], answer: "Ursula", genre: "Animated" },
+{ question: "In Finding Dory, what type of fish is Dory?", choices: ["Blue Tang", "Clownfish", "Nemo", "Angelfish"], answer: "Blue Tang", genre: "Animated" },
+{ question: "In Mulan, what is the name of the dragon who accompanies Mulan?", choices: ["Mushu", "Shang", "Li", "Ping"], answer: "Mushu", genre: "Animated" },
+{ question: "In The Secret Life of Pets, what is the name of the Jack Russell Terrier who leads the group of pets?", choices: ["Max", "Buddy", "Chloe", "Gidget"], answer: "Max", genre: "Animated" },
+{ question: "In Puss in Boots, who is the main antagonist that Puss must face?", choices: ["Jack and Jill", "Humpty Dumpty", "The Wolf", "Goldilocks"], answer: "Humpty Dumpty", genre: "Animated" },
+
+
+
+
+/*Animated Hard*/
+{ question: "In Spirited Away, what is the name of the bathhouse owner?", choices: ["Yubaba", "Chihiro", "Kamaji", "Haku"], answer: "Yubaba", genre: "Animated" },
+{ question: "In Toy Story 3, what is the name of the daycare center where the toys end up?", choices: ["Playtime Paradise", "Sunnydale Daycare", "Sunnyside Daycare", "Toyland Academy"], answer: "Sunnyside Daycare", genre: "Animated" },
+{ question: "In Howl’s Moving Castle, what is the name of the young woman cursed to live in an old woman’s body?", choices: ["Sophie", "Lina", "Mia", "Amelia"], answer: "Sophie", genre: "Animated" },
+{ question: "In Coco, what is the name of Miguel’s deceased great-great-grandfather?", choices: ["Héctor", "Ernesto de la Cruz", "Rogelio", "Julian"], answer: "Ernesto de la Cruz", genre: "Animated" },
+{ question: "In Coraline, what does Coraline use to defeat the Other Mother?", choices: ["Button eyes", "A needle", "A key", "A mirror"], answer: "A key", genre: "Animated" },
+{ question: "In Princess Mononoke, who is the wolf goddess?", choices: ["San", "Ashitaka", "Eboshi", "Tatarigami"], answer: "San", genre: "Animated" },
+{ question: "In Big Hero 6, what is the name of the inflatable healthcare companion?", choices: ["Fred", "Tadashi", "Baymax", "Hiro"], answer: "Baymax", genre: "Animated" },
+{ question: "In The Wind Rises, who is the protagonist who dreams of becoming an aircraft designer?", choices: ["Takeo Takahashi", "Nobuo Kurokawa", "Kiroshi Horiuchi", "Jiro Horikoshi"], answer: "Jiro Horikoshi", genre: "Animated" },
+{ question: "In Kubo and the Two Strings, what is the name of Kubo’s magical instrument?", choices: ["Lute", "Guitar", "Shamisen", "Piano"], answer: "Shamisen", genre: "Animated" },
+{ question: "In Rango, what is the name of the town where Rango becomes the sheriff?", choices: ["Tumbleweed", "Deadwood", "Vulture Valley", "Dirt"], answer: "Dirt", genre: "Animated" },
+{ question: "In Monsters University, what is Mike Wazowski’s major?", choices: ["Comedy", "Scaring", "Linguistics", "Engineering"], answer: "Scaring", genre: "Animated" },
+{ question: "In Frozen II, what is the name of the enchanted forest Elsa and Anna travel to?", choices: ["The Forbidden Forest", "The Misty Woods", "The Enchanted Forest", "The Northuldra Forest"], answer: "The Enchanted Forest", genre: "Animated" },
+{ question: "In How to Train Your Dragon, what is the name of Hiccup’s dragon?", choices: ["Toothless", "Stormfly", "Hookfang", "Meatlug"], answer: "Toothless", genre: "Animated" },
+{ question: "In Big Hero 6, what is the name of the villain who uses microbots?", choices: ["Syndrome", "Callaghan", "Yokai", "Tadashi"], answer: "Yokai", genre: "Animated" },
     
     
      
