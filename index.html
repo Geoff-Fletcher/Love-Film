@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,100 +8,91 @@
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://kit.fontawesome.com/cab064cd01.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
     </header>
-        <div class="card-container">
-            <!-- Card 1 -->
-            <div class="card1">
-              <img src="assets/images/comedy.webp" alt="comedy">
-              <div class="card-content">
-              </div>
-            </div>
-            <!-- Card 2 -->
-            <div class="card2">
-              <img src="assets/images/buzz.jpg" alt="Animation">
-              <div class="card-content">
-              </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="card3">
-              <img src="assets/images/dirty dancing.webp" alt="dirtydancing">
-              <div class="card-content">
-              </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="card4">
-              <img src="assets/images/JasonvJaws.png" alt="JasonvJaws">
-              <div class="card-content">
-              </div>
-            </div>
-            <!-- Card 5 -->
-            <div class="card5">
-              <img src="assets/images/scifi.webp" alt="scifi">
-              <div class="card-content">
-              </div>
-            </div>
-            <!-- Card 6 -->
-            <div class="card6">
-              <img src="assets/images/Die-hard.webp" alt="Die-hard">
-              <div class="card-content">
-              </div>
-            </div>
-            <div class="button-container">
-                <button class="quiz-button">Start Quiz</button>
-              </div>
-              
-        <div id="genreContainer" class="card" style="display: none;">
-            <h2>Select Genre</h2>
-            <div class="genre-container">
-                <div class="card 1" onclick="selectGenre('Horror')">Horror</div>
-                <div class="card 2" onclick="selectGenre('Action')">Action</div>
-                <div class="card 3" onclick="selectGenre('comedy')">comedy</div>
-                <div class="card 4" onclick="selectGenre('Romance')">Romance</div>
-                <div class="card 5" onclick="selectGenre('Animation)">Animation</div>
-                <div class="card 6" onclick="selectGenre('scifi')">Scifi</div>
-            </div>
-        </div>
-        <div id="startContainer" class="card" style="display: none;">
-            <h2>Select Difficulty Level</h2>
-            <div class="difficulty-container">
-                <div class="card" onclick="startQuiz('easy')">Easy</div>
-                <div class="card" onclick="startQuiz('medium')">Medium</div>
-                <div class="card" onclick="startQuiz('hard')">Hard</div>
-            </div>
-        </div>
-        <div id="quizContainer" style="display: none;">
-            <h2 id="quizTitle">Quiz</h2>
-            <p id="usernameDisplay"></p>
-            <div class="card">
-                <p id="genre">Genre: <span id="genreLabel"></span></p>
-                <p id="question">Question will appear here</p>
-                <div id="choicesContainer">
-                    <!-- Choices will be inserted here -->
-                </div>
-                <p id="result"></p>
-                <button id="nextButton" onclick="nextQuestion()">Next Question</button>
-                <p id="score">Score: 0</p>
+    <div class="card-container">
+        <!-- Card 1 -->
+        <div class="card1">
+            <img src="assets/images/comedy.webp" alt="comedy">
+            <div class="card-content">
             </div>
         </div>
     </div>
+    <!-- Card 2 -->
+    <div class="card2">
+        <img src="assets/images/buzz.jpg" alt="Animation">
+        <div class="card-content">
+        </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="card3">
+        <img src="assets/images/dirty dancing.webp" alt="Romance">
+        <div class="card-content">
+            <p>Romance</p>
+        </div>
+    </div>
+    <!-- Card 4 -->
+    <div class="card4">
+        <img src="assets/images/JasonvJaws.png" alt="Horror">
+        <p>Horror</p>
+        <div class="card-content">
+        </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="card5">
+        <img src="assets/images/scifi.webp" alt="scifi">
+        <p>sci fi</p>
+        <div class="card-content">
+        </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="card6">
+        <img src="assets/images/Die-hard.webp" alt="Action">
+        <div class="card-content">
+            <p>Action/p>
+        </div>
+    </div>
+    <div class="button-container">
+        <button class="quiz-button">Start Quiz</button>
+    </div>
 
-    <footer>
-        <footer class="social-footer">
-            <div class="social-media">
-                <a href="https://www.facebook.com/" aria-label="facebook" target="_blank" class="social-link">
-                    <i class="fa-brands fa-square-facebook"></i>
-                </a>
-                <a href="https://www.twitter.com/" aria-label="twitter" target="_blank" class="social-link">
-                    <i class="fa-brands fa-square-x-twitter"></i>
-                </a>
-                <a href="https://www.instagram.com/" aria-label="instagram" target="_blank" class="social-link">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
+    <div id="genreContainer" class="card" style="display: none;">
+        <h2>Select Genre</h2>
+        <div class="genre-container">
+            <div class="card1" onclick="selectGenre('Horror')">Horror</div>
+            <div class="card2" onclick="selectGenre('Action')">Action</div>
+            <div class="card3" onclick="selectGenre('comedy')">comedy</div>
+            <div class="card4" onclick="selectGenre('Romance')">Romance</div>
+            <div class="card5" onclick="selectGenre('Animation')">Animation</div>
+            <div class="card6" onclick="selectGenre('scifi')">Scifi</div>
+        </div>
+    </div>
+    <div id="startContainer" class="card" style="display: none;">
+        <h2>Select Difficulty Level</h2>
+        <div class="difficulty-container">
+            <div class="card" onclick="startQuiz('easy')">Easy</div>
+            <div class="card" onclick="startQuiz('medium')">Medium</div>
+            <div class="card" onclick="startQuiz('hard')">Hard</div>
+        </div>
+    </div>
+    <div id="quizContainer" style="display: none;">
+        <h2 id="quizTitle">Quiz</h2>
+        <p id="usernameDisplay"></p>
+        <div class="card">
+            <p id="genre">Genre: <span id="genreLabel"></span></p>
+            <p id="question">Question will appear here</p>
+            <div id="choicesContainer">
+                <!-- Choices will be inserted here -->
             </div>
+            <p id="result"></p>
+            <button id="nextButton" onclick="nextQuestion()">Next Question</button>
+            <p id="score">Score: 0</p>
+        </div>
         <p>&copy; 2024 Love Film. All rights reserved.</p>
-    </footer>
-    <script src="assets/script.js"></script>
+        </footer>
+        <script src="assets/script.js"></script>
 </body>
+
 </html>
