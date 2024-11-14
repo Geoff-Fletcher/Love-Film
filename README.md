@@ -8,8 +8,8 @@ One of the big ideas for this site is for it to have great avenues for expandabi
 
 Here is my deployed site on [https://ui.dev/amiresponsive?url=https://geoff-fletcher.github.io/Love-Film/](https://ui.dev/amiresponsive?url=https://geoff-fletcher.github.io/Love-Film/)
 
-![UI-res-prevent](https://github.com/user-attachments/assets/37800fbe-19f9-42ab-ac4b-0af705c3e95f)
 
+![love film](https://github.com/user-attachments/assets/54c389ed-44a6-4f3d-9967-ab657fad4a06)
 
 ---
 
