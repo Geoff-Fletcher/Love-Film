@@ -153,10 +153,9 @@ The websites and resources listed here were used to educate and inspire the prod
 - [Bootstrap](https://getbootstrap.com/)
 
 - # Content Resources
-- [Act](https://actearly.uk/contact/)
-- [UK Gov]( https://www.support-people-susceptible-to-radicalisation.service.gov.uk/)
-- [Profound UK](https://www.facebook.com/ProfoundUK)
-- [Counter terrorism policing](https://www.youtube.com/watch?v=-CCj_c5y-OI)
+- [ChatGPT](https://chatgpt.com/)
+-
+
 
 ---
 
