@@ -61,27 +61,10 @@ I used [Balsamiq](https://balsamiq.cloud/). to mock up all the wireframes for th
 
 ---
 
-## Features/User Stories
+## Project Board
 
-There are 4 featured pages for this website with a dropdown menu provided to easily navigate from any page to any other. In the spririt of mobile 1st design this has been masked by a "burger" icon for mobile and other smaller screens that provides a nested drop down when hovered over this should improve accesibility by avoiding having to click very small navbar links on touch screens.
-There are 2 clear buttons; the submit for the Prevent newsletter and the primary call to action to allow the user to make a report when needed as part of the prevent initiative.
 
----
-
-# Subscribe
-This is a button link to a form to recieve a report newsletter about the progress and evolution of the prevent initiative in the users area.
-
-# Footer
-Icons with links to social media. These link take you to their respective websites when clicked and open the link in a different tab, so you do not lose your place in our site, also they change color when hovered to help user awareness they are buttons and have an action attached to them.
-
-# Intro
-This carries on the story from the home landing page giving a little more information on the topic
-
-# Recognise
-This gives the user the information they need to spot when they need to take action and can help their community stay safe
-
-# Report
-This explains to the user what taking action will mean, whilst the button here gives them the direct and simple means to do so. This links direct to the goverments prevent website. Also non-emergency numbers are given to the user incase they prefer to have someone to get advice from rather than using the online form to take action.
+![Screenshot (267)](https://github.com/user-attachments/assets/bfaeaef1-548d-4670-99bf-2c2b3c449205)
 
 ## Tools & Technologies Used
 
