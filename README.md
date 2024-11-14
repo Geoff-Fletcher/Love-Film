@@ -6,7 +6,7 @@ Love-Film is a movie quiz website for people who love films of all sorts of genr
 One of the big ideas for this site is for it to have great avenues for expandability offering more and more content overtime so players can keep coming back since the expanse of film facts is almost endless. This includes adding new genres overtime and potentially even incorporating A.I. question card generation (maybe with a curated aspect) to make almost infinite content at some point in the future. We have given players a way to track their progress to add a sense of building acheivement as they answer more questions and also our victory reward images upon getting correct answers to add value as they go about playing.
 
 
-Here is my deployed site on [https://ui.dev/amiresponsive?url=https://geoff-fletcher.github.io/Prevent-Project/](https://ui.dev/amiresponsive?url=https://geoff-fletcher.github.io/Prevent-Project/)
+Here is my deployed site on [https://ui.dev/amiresponsive?url=https://geoff-fletcher.github.io/Love-Film/](https://ui.dev/amiresponsive?url=https://geoff-fletcher.github.io/Love-Film/)
 
 ![UI-res-prevent](https://github.com/user-attachments/assets/37800fbe-19f9-42ab-ac4b-0af705c3e95f)
 
@@ -15,7 +15,7 @@ Here is my deployed site on [https://ui.dev/amiresponsive?url=https://geoff-flet
 
 ## UX
 
-This website was designed to be as clear and concise as possible and have a simple flow to help a user navigate with ease even if they were accessing it in a stressful situation. The colors chosen are bold and contrasting to make it easy to read but also suggest the idea of action since the prevent initiative is all about everyone doing their part and taking action when necessary. The images are there to bring a slightly more relaxing tone and remind users that Prevent is primarily about communities coming together to protect their own members and others around them.
+This website was designed to represent a classic old school Hollywood style cinema with the question genre selecting cards looking like exciting posters from the genre they represent. Our quiz is based on film which has a huge visual component and a big part of the fun in a film quiz is reminiscing over the great visual aspect of the films we enjoy; it is important that the website convey this excitement to the player. The classic reds and golds of a glamourous old cinema give a tried and tested colour scheme to inform the basis of our color palette but we have also worked to keep contrast high for both clarity and accessibility.
 
 ---
 
@@ -154,10 +154,9 @@ The websites and resources listed here were used to educate and inspire the prod
 - [Bootstrap](https://getbootstrap.com/)
 
 - # Content Resources
-- [Act](https://actearly.uk/contact/)
-- [UK Gov]( https://www.support-people-susceptible-to-radicalisation.service.gov.uk/)
-- [Profound UK](https://www.facebook.com/ProfoundUK)
-- [Counter terrorism policing](https://www.youtube.com/watch?v=-CCj_c5y-OI)
+- [ChatGPT](https://chatgpt.com/)
+-
+
 
 ---
 
