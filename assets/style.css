@@ -134,7 +134,7 @@ header {
 .quiz-button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #e90909;
+  background-color: #92140c;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -142,7 +142,7 @@ header {
 }
 
 .quiz-button:hover {
-  background-color: #f01215;
+  background-color: #92140c;
 }
 
 /* Footer Styles */

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love Film</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://kit.fontawesome.com/cab064cd01.js" crossorigin="anonymous"></script>
 </head>
@@ -12,48 +13,67 @@
 <body>
     <header>
     </header>
-    <div class="card-container">
-        <!-- Card 1 -->
-        <div class="card1">
-            <img src="assets/images/comedy.webp" alt="comedy">
-            <div class="card-content">
+    <div class="container my-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="assets/images/comedy.webp" class="card-img-top" alt="comedy">
+                    <div class="card-body">
+                        <p class="card-text">Comedy</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <!-- Card 2 -->
-    <div class="card2">
-        <img src="assets/images/buzz.jpg" alt="Animation">
-        <div class="card-content">
-        </div>
-    </div>
-    <!-- Card 3 -->
-    <div class="card3">
-        <img src="assets/images/dirty dancing.webp" alt="Romance">
-        <div class="card-content">
-        </div>
-    </div>
-    <!-- Card 4 -->
-    <div class="card4">
-        <img src="assets/images/JasonvJaws.png" alt="Horror">
-        <div class="card-content">
-        </div>
-    </div>
-    <!-- Card 5 -->
-    <div class="card5">
-        <img src="assets/images/scifi.webp" alt="scifi">
-        <div class="card-content">
-        </div>
-    </div>
-    <!-- Card 6 -->
-    <div class="card6">
-        <img src="assets/images/Die-hard.webp" alt="Action">
-        <div class="card-content">
+            <!-- Card 2 -->
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="assets/images/buzz.jpg" class="card-img-top" alt="Animation">
+                    <div class="card-body">
+                        <p class="card-text">Animation</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="assets/images/dirty dancing.webp" class="card-img-top" alt="Romance">
+                    <div class="card-body">
+                        <p class="card-text">Romance</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="assets/images/JasonvJaws.png" class="card-img-top" alt="Horror">
+                    <div class="card-body">
+                        <p class="card-text">Horror</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="assets/images/scifi.webp" class="card-img-top" alt="Scifi">
+                    <div class="card-body">
+                        <p class="card-text">Sci-Fi</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-4 col-sm-6 col-12 mb-4">
+                <div class="card">
+                    <img src="assets/images/Die-hard.webp" class="card-img-top" alt="Action">
+                    <div class="card-body">
+                        <p class="card-text">Action</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="button-container">
         <button class="quiz-button">Start Quiz</button>
     </div>
-
     <div id="genreContainer" class="card" style="display: none;">
         <h2>Select Genre</h2>
         <div class="genre-container">
