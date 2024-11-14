@@ -66,6 +66,10 @@ I used [Balsamiq](https://balsamiq.cloud/). to mock up all the wireframes for th
 
 ![Screenshot (267)](https://github.com/user-attachments/assets/bfaeaef1-548d-4670-99bf-2c2b3c449205)
 
+## Features/ User stories
+
+Love Film lets the quiz player select from 6 different fil genres to answer questions on with over 240 questions in total and will be able to add to that in the future. It totals up your score with a congratulations screen but further down the line will aim to offer a number of rare or cool film images as rewards in each genre depending how well the player does.
+
 ## Tools & Technologies Used
 
 
