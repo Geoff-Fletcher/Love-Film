@@ -15,7 +15,7 @@ Here is my deployed site on [https://ui.dev/amiresponsive?url=https://geoff-flet
 
 ## UX
 
-This website was designed to be as clear and concise as possible and have a simple flow to help a user navigate with ease even if they were accessing it in a stressful situation. The colors chosen are bold and contrasting to make it easy to read but also suggest the idea of action since the prevent initiative is all about everyone doing their part and taking action when necessary. The images are there to bring a slightly more relaxing tone and remind users that Prevent is primarily about communities coming together to protect their own members and others around them.
+This website was designed to represent a classic old school Hollywood style cinema with the question genre selecting cards looking like exciting posters from the genre they represent. Our quiz is based on film which has a huge visual component and a big part of the fun in a film quiz is reminiscing over the great visual aspect of the films we enjoy; it is important that the website convey this excitement to the player. The classic reds and golds of a glamourous old cinema give a tried and tested colour scheme to inform the basis of our color palette but we have also worked to keep contrast high for both clarity and accessibility.
 
 ---
 
