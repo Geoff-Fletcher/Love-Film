@@ -323,6 +323,7 @@ function saveUsername() {
 }
 
 function selectGenre(genre) {
+    console.log('selectGenre invoked')
     selectedGenre = genre;
     document.getElementById('genreContainer').style.display = 'none';
     document.getElementById('startContainer').style.display = 'block';

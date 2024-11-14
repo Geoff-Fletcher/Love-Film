@@ -25,7 +25,7 @@ The contrast color scheme is designed to make it easy for users to navigate and 
 
 I used Coolors [https://coolors.co/1f1f1f-a7a7a7-f05f40-df4929-ebebeb](https://coolors.co/1f1f1f-a7a7a7-f05f40-df4929-ebebeb) to generate the color palette for this website.
 
-![Palette](https://github.com/user-attachments/assets/f10068c3-adab-4f3d-911d-a36489a44725)
+![alt text](<assets/images/Love Film Movie Quiz.png>)
 
 
 ---
@@ -44,13 +44,14 @@ I used Google Fonts to provide Roboto as the primary font for this site. I think
 
 I used [Balsamiq](https://balsamiq.cloud/). to mock up all the wireframes for this project which went for a mobile 1st design but i also built in versatility to give myself an idea what i wanted for both larger tablets and desktops.
 
-![New Wireframe 1](https://github.com/user-attachments/assets/6f64122f-1dd0-4e07-832d-d90f01caabf6)
+![alt text](assets/images/lovefilmmobilewireframe.png)
+![alt text](assets/images/lovefilmtabletwireframe.png)
+![alt text](assets/images/lovefilmdesktopwireframe.png)
 
-![New Wireframe 2](https://github.com/user-attachments/assets/ee5ce56c-8a7a-465f-82dc-e64413f2b2d0)
 
-![New Wireframe 3](https://github.com/user-attachments/assets/74780ffb-3aaf-4fc6-9e85-d8f1e4170107)
 
-![New Wireframe 4](https://github.com/user-attachments/assets/63678704-dc35-4980-9763-36c67987b237)
+
+
 
 
 
